@@ -1,0 +1,14 @@
+<!doctype html><body onload="K='<input type=';E=(m,n=8)=>K+`number required ${V
+='value'}=9 max=${m} min=${n} id=`;F='#';L=(f,n=N)=>{while(n)f(--n)};Z=x=>(x|=0
+)>9?x:'0'+x;B[I='innerHTML']=`w${E(70)}W>h${E(25)}H>*${E(0,9)}M>${K}button ${V}
+=Start onclick=S()><p id=P><table style=border-collapse:collapse id=T>`;S=k=>{a
+=k=[];w=G(W);h=G(H);N=w*h;u=w+2;M.max=~-w*~-h;f=m=G(M,10);C=[p=m-N];T[I]='';U=
+t=>P[I]=Z(t=(t-(b=b||t))/6e4)+`:${Z(t%1*60,p&&k==a&&requestAnimationFrame(U))}
+${g||F+f}`;U(L((i,j=X(i=N+~i),c=C[j]=(r=i%w?r:T.insertRow()).insertCell())=>{a[
+j]=b=g=0;c.style=`width:24px;height:24px;border:solid;text-align:center;cursor:
+default`;c.oncontextmenu=_=>!!p&&((s=c[I])==F||!s)&&!~(c[I]=!s&&f--?F:(++f,''))
+c.onclick=_=>{while(m)a[i=X(N*Math.random())]|i==j?0:m-=a[i]=1;p&&!c[I]&&(g=a[j
+]?L(i=>a[i=X(p=i)]&&(C[i][I]='&#8251'))||'Lose':O(j)?0:'Win')}}))};X=i=>u*-~(i/
+w)-~(i%w);O=i=>a[i]==0&&((c=C[i])[I]==F?++f:!c[I])&&((c[I]=A(i,i=>0|a[i])||'-',
+c.style.background='gray',s)||A(i,O),++p);A=(i,f)=>L(j=>s+=f(i-1+j%3+~-(j/3)*u)
+,9,s=0)|s;S(G=(e,v=9)=>e[V]=e.reportValidity()?e[V]:v)"id=B>
