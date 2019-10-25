@@ -1,0 +1,9 @@
+<body onload="C=[t=[b=[{max:M,min:N,random:R}=Math]]];for(n=i=136;i--;w=21)t[i]
+=i>>2;X=p=>p%w;Y=p=>p/w|0;for(q=k=0;k<252;c[I='innerHTML']=v?`&#`+(126975+(~v?v
+:44)):''){let p=k++;d=N(x=X(p),y=Y(p),w+~x,12+~y);r=x?r:T.insertRow();C[p]=c=r.
+insertCell();b[p]=v=d?d-1?1+t.splice(n--*R(c.onclick=_=>{C[q||p].style.outline=
+q?'none':'solid';R=(n,s,m,f,J=n=>n<m?J(n+1,s=f(s)(n)):s)=>J(n);T=(p,q,U,V,D,E,F
+=p=>b[p-D]?p:F(p-D))=>!R(M(U(F(p)),U(F(q))),D=-D,N(U(F(p)),U(F(q)))+1,n=>u=>n*R
+(N(s=V(p),t=V(q))+1,0,M(s,t),n=>v=>n+b[v*E-u*D]));q=q?p-q&&b[p]==b[q]&&(T(p,q,X
+,Y,1,w)||T(p,q,Y,X,w,1))?(C[p][I]=C[q][I]='',b[p]=b[q]=0):0:p}),1)[0]:0:-1;c.
+style=`cursor:default;font:6mm/1.3''`}"><table id=T>
